@@ -1,4 +1,4 @@
-
+$(document).ready(function() {
 // gets a new object (the architecture allows us to not have to use the 'new' keyword here)
 var g = G$('John', 'Doe');
 
@@ -17,4 +17,5 @@ $('#login').click(function() {
 // fire off an HTML greeting, passing the '#greeting' as the  selector and the chosen language, and log the welcome as well
   loginGrtr.setLang($('#lang').val()).HTMLGreeting('#greeting', true).log();
 
+});
 });
